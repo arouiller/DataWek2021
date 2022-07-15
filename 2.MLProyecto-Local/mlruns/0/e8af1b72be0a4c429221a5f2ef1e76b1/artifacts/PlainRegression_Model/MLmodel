@@ -1,0 +1,16 @@
+artifact_path: PlainRegression_Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 1.27.0
+model_uuid: dab537cf581e49bd96809c40e0eefaf3
+run_id: e8af1b72be0a4c429221a5f2ef1e76b1
+utc_time_created: '2022-07-15 15:28:34.302801'

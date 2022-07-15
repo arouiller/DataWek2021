@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/arouiller/DataWeek%202022/2.MLProyecto-Local/mlruns/0/d705aaf980dc47288b3c41cfcf32b76a/artifacts
+end_time: 1657895565667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+name: ''
+run_id: d705aaf980dc47288b3c41cfcf32b76a
+run_uuid: d705aaf980dc47288b3c41cfcf32b76a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657895561654
+status: 4
+tags: []
+user_id: arouiller

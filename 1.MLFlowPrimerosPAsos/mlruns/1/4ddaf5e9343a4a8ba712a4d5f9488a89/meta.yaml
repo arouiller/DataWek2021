@@ -1,0 +1,15 @@
+artifact_uri: file:///C:\Users\arouiller\DataWeek 2022\1.MLFlowPrimerosPAsos/mlruns/1/4ddaf5e9343a4a8ba712a4d5f9488a89/artifacts
+end_time: 1657888796522
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+name: ''
+run_id: 4ddaf5e9343a4a8ba712a4d5f9488a89
+run_uuid: 4ddaf5e9343a4a8ba712a4d5f9488a89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657888793778
+status: 3
+tags: []
+user_id: arouiller

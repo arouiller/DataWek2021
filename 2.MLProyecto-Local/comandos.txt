@@ -1,0 +1,22 @@
+/*Para hacer una ejecución y que la traza quede a nivel local*/
+set MLFLOW_TRACKING_URI=
+set MLFLOW_EXPERIMENT_NAME=Default
+mlflow run . --entry-point holauser --env-manager local 
+
+/*Para hacer una ejecución y que la traza quede a nivel local con paso de parametros*/
+set MLFLOW_TRACKING_URI=
+set MLFLOW_EXPERIMENT_NAME=Default
+mlflow run . --entry-point holauser --env-manager local -P nombre=Martin
+
+/*Para hacer una ejecución y que la traza quede a nivel local con paso de parametros*/
+set MLFLOW_TRACKING_URI=
+set MLFLOW_EXPERIMENT_NAME=Default
+mlflow run . --entry-point holauser --env-manager local -P nombre=Martin -P repeticiones=2
+
+/*invocando un algoritmo definiendo parmaetros*/
+set MLFLOW_TRACKING_URI=
+set MLFLOW_EXPERIMENT_NAME=Default
+mlflow run . --entry-point prediccion --env-manager local  --run-name EjecucionLocal -P alpha=0.1111111 -P l1_ratio=0.22222222 -P data_file=c:\\database\\winedata\\winequality-red.csv
+
+/*invocación de una ejecución */
+python execute_model.py --logged_model 'runs:/e8af1b72be0a4c429221a5f2ef1e76b1/PlainRegression_Model' --data_file 'c:\\database\\winedata\\winequality-red.csv'

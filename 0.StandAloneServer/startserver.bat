@@ -1,0 +1,1 @@
+mlflow server -p8990 --serve-artifacts --backend-store-uri sqlite:///mlflow.db

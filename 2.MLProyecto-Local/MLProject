@@ -1,0 +1,15 @@
+name: primer-proyecto
+entry_points:
+    holauser:
+        parameters:
+            
+            repeticiones: {type: int, default: 1}
+        command: 'python holauser.py --name {nombre} --repeticiones {repeticiones}'
+
+    prediccion:
+        parameters:
+            alpha: {type: float, default: 0.1}
+            l1_ratio: {type: float, default: 0.1}
+            data_file: {type: string, default: 'c:\\database\\winedata\\winequality-red.csv'}
+        command: 'python MLFlow_Project_Regresion.py --alpha {alpha} --l1_ratio {l1_ratio} --data_file {data_file}'
+
